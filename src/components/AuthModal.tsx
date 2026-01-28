@@ -102,7 +102,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
               </div>
               <h2 className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 
                            dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
-                {isLoginMode ? 'Welcome Back' : 'Create Account'}
+                {isLoginMode ? 'Welcome' : 'Create Account'}
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mt-2">
                 {isLoginMode 
